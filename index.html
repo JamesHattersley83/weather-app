@@ -17,15 +17,13 @@
           class="col-md-6 mx-auto text-white text-center bg-info mt-5 p-5 rounded"
         >
           <h1 id="location"></h1>
-          <h3 id="desc"></h3>
+          <h3 class="text-primary" id="desc"></h3>
           <h3 id="temp"></h3>
           <img id="icon" />
           <ul id="details" class="list-group mt-3 text-dark">
             <li class="list-group-item" id="humidity"></li>
             <li class="list-group-item" id="wind-speed"></li>
             <li class="list-group-item" id="cloud"></li>
-            <li class="list-group-item" id="sunrise"></li>
-            <li class="list-group-item" id="sunset"></li>
           </ul>
           <!-- Button trigger modal -->
           <button
@@ -67,6 +65,10 @@
               <div class="form-group">
                 <label for="city">City</label>
                 <input type="text" id="city" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="city">Country</label>
+                <input type="text" id="country" class="form-control" />
               </div>
             </form>
           </div>
